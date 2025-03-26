@@ -4,8 +4,9 @@ public class DefaultCountingOutRhymer {
 
     public static final int MAX_STACK_CAPACITY = 12;
     public static final int INVALID_STACK_VALUE = -1;
+    public static final int EMPTY_STACK_VALUE = -1;
     private final int[] numbers = new int[MAX_STACK_CAPACITY];
-    public int total = INVALID_STACK_VALUE;
+    public int total = EMPTY_STACK_VALUE;
 
     public void countIn(int in) {
         if (!isFull())
