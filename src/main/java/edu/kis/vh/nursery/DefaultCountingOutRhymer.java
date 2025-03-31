@@ -8,6 +8,10 @@ public class DefaultCountingOutRhymer {
     private final int[] numbers = new int[MAX_STACK_CAPACITY];
     private int total = EMPTY_STACK_INDICATOR;
 
+    public int getTotal() {
+        return total;
+    }
+
     public void countIn(int in) {
         if (!isFull())
             numbers[++total] = in;
