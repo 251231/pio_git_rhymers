@@ -2,7 +2,7 @@ package edu.kis.vh.nursery;
 
 import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
 import edu.kis.vh.nursery.factory.Rhymersfactory;
-
+//Projekt jest poprawny, wszystkie testy przebiegły pomyślnie
 class RhymersDemo {
 
     private static final int MAX_COUNT = 15;
